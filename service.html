@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Apex - Home Repair Website Template</title>
+    <title>Sunrise Portable Cabins Industry</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -31,6 +31,7 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -49,37 +50,57 @@
     </div>
     <!-- Spinner End -->
 
+    <!-- call us button only show in mobile-->
+    <div class="container-fluid d-md-none d-block">
+      <div class="row">
+        <div class="col-12 col-md-4 fixed-bottom px-0">
+          <div class="btn-group w-100" role="group" aria-label="Basic example">
+            <a href="tel:+91 8459532418" class="w-100 text-white">
+              <button type="button" class="btn btn-primary rounded-0 w-100">
+                <img src="img/phone-icom.png" height="32" />
+                +918459532418
+              </button>
+            </a>
+
+            <a href="#" class="w-100">
+              <button type="button" class="btn btn-success rounded-0 w-100">
+                <img src="img/whatsapp-icon.png" height="32" />
+                Whatsapp
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- call us button only show in mobile end-->
+
     <!-- Topbar Start -->
-    <div class="container-fluid bg-light p-0">
+    <div class="container-fluid bg-dark p-0">
       <div class="row gx-0 d-none d-lg-flex">
         <div class="col-lg-7 px-5 text-start">
           <div
-            class="h-100 d-inline-flex align-items-center border-start border-end px-3"
+            class="h-100 d-inline-flex text-white align-items-center border-start border-end px-3"
           >
             <small class="fa fa-phone-alt me-2"></small>
-            <small>+012 345 6789</small>
+            <small><a href="tel:+918459532418" class="text-white"> 8459532418</a></small>
           </div>
-          <div class="h-100 d-inline-flex align-items-center border-end px-3">
+          <div class="h-100 d-inline-flex align-items-center border-end px-3 text-white">
             <small class="far fa-envelope-open me-2"></small>
-            <small>info@example.com</small>
-          </div>
-          <div class="h-100 d-inline-flex align-items-center border-end px-3">
-            <small class="far fa-clock me-2"></small>
-            <small>Mon - Fri : 09 AM - 09 PM</small>
+            <small><a href="mailto:sunriseportablecabin@gmail.com" class="text-white"> sunriseportablecabin@gmail.com</a></small>
           </div>
         </div>
         <div class="col-lg-5 px-5 text-end">
           <div class="h-100 d-inline-flex align-items-center">
-            <a class="btn btn-square border-end border-start" href=""
+            <a class="btn btn-square border-end border-start text-white" href=""
               ><i class="fab fa-facebook-f"></i
             ></a>
-            <a class="btn btn-square border-end" href=""
+            <a class="btn btn-square border-end text-white" href=""
               ><i class="fab fa-twitter"></i
             ></a>
-            <a class="btn btn-square border-end" href=""
+            <a class="btn btn-square border-end text-white" href=""
               ><i class="fab fa-linkedin-in"></i
             ></a>
-            <a class="btn btn-square border-end" href=""
+            <a class="btn btn-square border-end text-white" href=""
               ><i class="fab fa-instagram"></i
             ></a>
           </div>
@@ -94,7 +115,8 @@
     >
       <a href="index.html" class="navbar-brand d-flex align-items-center">
         <h1 class="m-0">
-          <i class="fa fa-building text-primary me-3"></i>APEX
+          <!-- <i class="fa fa-building text-primary me-3"></i> -->
+          Sunrise Portable Cabins
         </h1>
       </a>
       <button
@@ -108,25 +130,41 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-3 py-lg-0">
           <a href="index.html" class="nav-item nav-link">Home</a>
-          <a href="about.html" class="nav-item nav-link">About Us</a>
-          <a href="service.html" class="nav-item nav-link active"
-            >Our Services</a
-          >
           <div class="nav-item dropdown">
             <a
               href="#"
               class="nav-link dropdown-toggle"
               data-bs-toggle="dropdown"
-              >Pages</a
+              >About Us</a
             >
             <div class="dropdown-menu bg-light m-0">
-              <a href="feature.html" class="dropdown-item">Features</a>
-              <a href="appointment.html" class="dropdown-item">Appointment</a>
+              <a href="about.html" class="dropdown-item">About Company</a>
+              <a href="about-cabins.html" class="dropdown-item">About Cabins</a>
               <a href="team.html" class="dropdown-item">Our Team</a>
               <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-              <a href="404.html" class="dropdown-item">404 Page</a>
             </div>
           </div>
+          
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Products</a
+            >
+            <div class="dropdown-menu bg-light m-0">
+              <a href="portable-cabins.html" class="dropdown-item">Portable Cabins</a>
+              <a href="security-cabins.html.html" class="dropdown-item">Security Cabins</a>
+              <a href="bunk-house.html" class="dropdown-item">Bunk House</a>
+              <a href="portable-toilet.html" class="dropdown-item">Portable Toilet</a>
+              <a href="mobile-hospitals.html" class="dropdown-item">Mobile Hospitals</a>
+              <a href="potable-site-office.html" class="dropdown-item">Portable Site office cabin</a>
+              <a href="porta-cabin.html" class="dropdown-item">Porta Cabin</a>
+              <a href="container-office.html" class="dropdown-item">Container Office</a>
+              <a href="portable-accommodation-cabin.html" class="dropdown-item">Portable Accommodation Cabin</a>
+            </div>
+          </div>
+          <a href="service.html" class="nav-item nav-link active">Our Gallery</a>
           <a href="contact.html" class="nav-item nav-link">Contact Us</a>
         </div>
       </div>
@@ -140,7 +178,7 @@
     >
       <div class="container text-center py-5">
         <h1 class="display-4 text-white animated slideInDown mb-4">
-          Our Services
+          Gallery
         </h1>
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb justify-content-center mb-0">
@@ -148,10 +186,10 @@
               <a class="text-white" href="#">Home</a>
             </li>
             <li class="breadcrumb-item">
-              <a class="text-white" href="#">Pages</a>
+              <a class="text-white" href="#">Page</a>
             </li>
             <li class="breadcrumb-item text-primary active" aria-current="page">
-              Our Services
+              Our Gallery
             </li>
           </ol>
         </nav>
@@ -159,205 +197,64 @@
     </div>
     <!-- Page Header End -->
 
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-5 align-items-end mb-5">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="border-start border-5 border-primary ps-4">
-              <h6 class="text-body text-uppercase mb-2">Our Services</h6>
-              <h1 class="display-6 mb-0">
-                Construction And Renovation Solutions
-              </h1>
-            </div>
-          </div>
-          <div class="col-lg-6 text-lg-end wow fadeInUp" data-wow-delay="0.3s">
-            <a class="btn btn-primary py-3 px-5" href="">More Services</a>
-          </div>
-        </div>
-        <div class="row g-4 justify-content-center">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="service-item bg-light overflow-hidden h-100">
-              <img class="img-fluid" src="img/service-1.jpg" alt="" />
-              <div class="service-text position-relative text-center h-100 p-4">
-                <h5 class="mb-3">Building Construction</h5>
-                <p>
-                  Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                  amet diam et eos
-                </p>
-                <a class="small" href=""
-                  >READ MORE<i class="fa fa-arrow-right ms-3"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="service-item bg-light overflow-hidden h-100">
-              <img class="img-fluid" src="img/service-2.jpg" alt="" />
-              <div class="service-text position-relative text-center h-100 p-4">
-                <h5 class="mb-3">Home Maintainance</h5>
-                <p>
-                  Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                  amet diam et eos
-                </p>
-                <a class="small" href=""
-                  >READ MORE<i class="fa fa-arrow-right ms-3"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="service-item bg-light overflow-hidden h-100">
-              <img class="img-fluid" src="img/service-3.jpg" alt="" />
-              <div class="service-text position-relative text-center h-100 p-4">
-                <h5 class="mb-3">Renovation and Painting</h5>
-                <p>
-                  Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                  amet diam et eos
-                </p>
-                <a class="small" href=""
-                  >READ MORE<i class="fa fa-arrow-right ms-3"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="service-item bg-light overflow-hidden h-100">
-              <img class="img-fluid" src="img/service-4.jpg" alt="" />
-              <div class="service-text position-relative text-center h-100 p-4">
-                <h5 class="mb-3">Wiring and installation</h5>
-                <p>
-                  Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                  amet diam et eos
-                </p>
-                <a class="small" href=""
-                  >READ MORE<i class="fa fa-arrow-right ms-3"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="service-item bg-light overflow-hidden h-100">
-              <img class="img-fluid" src="img/service-5.jpg" alt="" />
-              <div class="service-text position-relative text-center h-100 p-4">
-                <h5 class="mb-3">Tiling and Painting</h5>
-                <p>
-                  Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                  amet diam et eos
-                </p>
-                <a class="small" href=""
-                  >READ MORE<i class="fa fa-arrow-right ms-3"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="service-item bg-light overflow-hidden h-100">
-              <img class="img-fluid" src="img/service-6.jpg" alt="" />
-              <div class="service-text position-relative text-center h-100 p-4">
-                <h5 class="mb-3">Interior Design</h5>
-                <p>
-                  Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                  amet diam et eos
-                </p>
-                <a class="small" href=""
-                  >READ MORE<i class="fa fa-arrow-right ms-3"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Service End -->
-
-    <!-- Appointment Start -->
+    <!-- About Start -->
     <div class="container-xxl py-5">
       <div class="container">
         <div class="row g-5">
-          <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="border-start border-5 border-primary ps-4 mb-5">
-              <h6 class="text-body text-uppercase mb-2">Appointment</h6>
-              <h1 class="display-6 mb-0">
-                A Company Involved In Service And Maintenance
-              </h1>
-            </div>
-            <p class="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
-            </p>
-          </div>
-          <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <form>
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      type="text"
-                      class="form-control bg-light border-0"
-                      id="gname"
-                      placeholder="Gurdian Name"
-                    />
-                    <label for="gname">Your Name</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      type="email"
-                      class="form-control bg-light border-0"
-                      id="gmail"
-                      placeholder="Gurdian Email"
-                    />
-                    <label for="gmail">Your Email</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      type="text"
-                      class="form-control bg-light border-0"
-                      id="cname"
-                      placeholder="Child Name"
-                    />
-                    <label for="cname">Your Mobile</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      type="text"
-                      class="form-control bg-light border-0"
-                      id="cage"
-                      placeholder="Child Age"
-                    />
-                    <label for="cage">Service Type</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-floating">
-                    <textarea
-                      class="form-control bg-light border-0"
-                      placeholder="Leave a message here"
-                      id="message"
-                      style="height: 100px"
-                    ></textarea>
-                    <label for="message">Message</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button class="btn btn-primary w-100 py-3" type="submit">
-                    Get Appointment
-                  </button>
-                </div>
+          <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="h-100">
+              <div class="border-start border-5 border-primary ps-4 mb-5">
+                <h6 class="text-body text-uppercase mb-2">Our Gallery</h6>
+                <h1 class="display-6 mb-0">
+                  Completed Project Pictures.
+                </h1>
               </div>
-            </form>
+              <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/portable accomodation cabin/portable-accomodation-cabin-10.jpeg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Portable Accomodation Cabin</h4>
+                            <div class="d-flex">
+                                <!-- <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-1.jpeg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a> -->
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="gallery-details.html"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/portable House cabin/portable-house-cabin-10.jpeg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Portable House Cabin</h4>
+                            <div class="d-flex">
+                                <!-- <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-2.jpeg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a> -->
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="gallery-details.html"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/Portable office cabin/portable-office-cabin-10.jpeg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Portable office cabin</h4>
+                            <div class="d-flex">
+                                <!-- <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-3.jpeg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a> -->
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="gallery-details.html"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Appointment End -->
+    <!-- About End -->
+
+  
 
     <!-- Footer Start -->
     <div
@@ -366,14 +263,13 @@
     >
       <div class="container py-5">
         <div class="row g-5">
-          <div class="col-lg-3 col-md-6">
-            <h1 class="text-white mb-4">
-              <i class="fa fa-building text-primary me-3"></i>APEX
-            </h1>
+          <div class="col-lg-3 col-md-6 px-md-0">
+            <h4 class="text-light mb-4">Contact us            </h4>
             <p>
-              Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
-              ipsum et lorem et sit, sed stet lorem sit clita
+              <i class="fa fa-map-marker-alt me-3"></i>Sy. No. 218, Bahadurpally 'X' Road, Near Indian Oil Petrol Pump, Medak Road, Hyd-500043, T.S.
             </p>
+            <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+918459532418" class="text-white">+91 8459532418</a></p>
+            <p><i class="fa fa-envelope me-3"></i><a href="mailto:sunriseportablecabin@gmail.com" class="text-white"> sunriseportablecabin@gmail.com</a></p>
             <div class="d-flex pt-2">
               <a class="btn btn-square btn-outline-primary me-1" href=""
                 ><i class="fab fa-twitter"></i
@@ -390,53 +286,32 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <h4 class="text-light mb-4">Address</h4>
-            <p>
-              <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
-            </p>
-            <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-            <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
-          </div>
-          <div class="col-lg-3 col-md-6">
             <h4 class="text-light mb-4">Quick Links</h4>
             <a class="btn btn-link" href="">About Us</a>
             <a class="btn btn-link" href="">Contact Us</a>
             <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
+            <a class="btn btn-link" href="">About Company</a>
+            <a class="btn btn-link" href="">Gallery</a>
           </div>
+
           <div class="col-lg-3 col-md-6">
-            <h4 class="text-light mb-4">Newsletter</h4>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-            <div class="position-relative mx-auto" style="max-width: 400px">
-              <input
-                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
-                type="text"
-                placeholder="Your email"
-              />
-              <button
-                type="button"
-                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
-              >
-                SignUp
-              </button>
-            </div>
+            <h4 class="text-light mb-4">Products</h4>
+            <a class="btn btn-link" href="">Portable Cabins</a>
+            <a class="btn btn-link" href="">Security Cabins</a>
+            <a class="btn btn-link" href="">Porta Cabin</a>
+            <a class="btn btn-link" href="">Container Office</a>
+            <a class="btn btn-link" href="">Portable Site office cabin</a>
           </div>
-        </div>
-      </div>
-      <div class="container-fluid copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              &copy; <a href="#">Your Site Name</a>, All Right Reserved.
-            </div>
-            <div class="col-md-6 text-center text-md-end">
-              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-              Designed By <a href="https://htmlcodex.com">HTML Codex</a>
-              <br />Distributed By:
-              <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
-            </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Products</h4>
+            <a class="btn btn-link" href="">Bunk House</a>
+            <a class="btn btn-link" href="">Contact Us</a>
+            <a class="btn btn-link" href="">Mobile Hospitals</a>
+            <a class="btn btn-link" href="">Laboratory Cabin</a>
+            <a class="btn btn-link" href="">Portable Toilet</a>
           </div>
+          
         </div>
       </div>
     </div>
@@ -454,6 +329,7 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
